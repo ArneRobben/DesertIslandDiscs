@@ -1,7 +1,7 @@
 # Scraping and analysing BBC's Desert Island Discs 
 
 ## 1. Setting up your work environment
-First install a local copy by cloning this repository. Click on `code > clone` and copy the link to your clipboard. Open an terminal and change directory to a location where you want to download the folder structure. 
+First install a local copy by cloning this repository. Click on `code > clone` and copy the link to your clipboard. Open a terminal and change directory to a location where you want to download the folder structure. 
 
 `
 cd Users/robbena/code/
