@@ -1,7 +1,9 @@
 # Scraping and analysing BBC's Desert Island Discs 
 
 ## 1. Setting up your work environment
-First install a local copy by cloning this repository. Click on `code > clone` and copy the link to your clipboard. Open a terminal and change directory to a location where you want to download the folder structure. 
+Make sure you have the latest Python installed `https://www.python.org/downloads/release`
+
+Now install a local copy by cloning this repository. Click on `code > clone` and copy the link to your clipboard. Open a terminal and change directory to a location where you want to download the folder structure. 
 
 `
 cd Users/robbena/code/
@@ -18,11 +20,25 @@ You now should have the folder structure available
 ## 2. About Virtual Environment
 A virtual environment is a specific python environment that is only there for this project. It only knows about the libraries that are needed for this code and nothing else. By using it, it keeps things lean and everyone collaborating will use the same versions of the installed libraries. 
 
-I have set up a virtual environment called `venv`, which you can see in this folder structure. You need to activate it to access the environment. This can be done by the command:
+The best thing is to set up an empty environment and then install the same libaries as are required for this repository.
+
+Set up a new environment in your working directory:
+
+`python3 -m venv venv`
+
+This makes a new empty virtual environment called 'venv'. If you want to name it differently you can change the last `venv` in the above command to any name. If this command doesn't work, you will have to install `virtualenv` (https://virtualenv.pypa.io/en/latest/installation.html)
+
+Now activate the virtual environment:
 
 `source venv/bin/activate`
 
-If that works, you are now in the python version that is just there for this project. If you want to add a libary to this environment, you can do this now by running:
+If that works, you are now in the python version that is just there for this project. 
+
+Now install the requirements that are needed for this project:
+
+`pip install -r requirements.txt`
+
+You should now be good to go to run the Jupyter Notebook. If you want to add a libary to this environment, you can do this now by running:
 
 `pip install <libary name>`
 
