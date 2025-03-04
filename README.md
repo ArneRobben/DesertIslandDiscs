@@ -1,4 +1,4 @@
-# Scraping and analysing BBC's Desert Island Discs 
+# Scraping BBC's Desert Island Discs 
 
 ## 1. Setting up your work environment
 Make sure you have the latest Python installed `https://www.python.org/downloads/release`
